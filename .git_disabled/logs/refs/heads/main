@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 5673e37b4e1ea31769f85b3a222f652c6ebb84d9 Alex Camargo <alex@bonifiq.com.br> 1758924488 -0300	commit (initial): Scaffold Storefront
+5673e37b4e1ea31769f85b3a222f652c6ebb84d9 78b9eda4914702ed886d8e456c82c512c23bf082 Alex Camargo <alex@bonifiq.com.br> 1758924488 -0300	commit: Setup Tailwind v4
+78b9eda4914702ed886d8e456c82c512c23bf082 31231c1e04af94a88424f8b6d947abb9c85d1c7a Alex Camargo <alex@bonifiq.com.br> 1758924498 -0300	commit: Setup markets support using subfolders
+31231c1e04af94a88424f8b6d947abb9c85d1c7a c511a997eeab6a8647a5802fa96c548cd7856958 Alex Camargo <alex@bonifiq.com.br> 1758924499 -0300	commit: Generate routes for core functionality
+c511a997eeab6a8647a5802fa96c548cd7856958 af104ce9ed02f441bc9a2e60a1f920073efcd138 Alex Camargo <alex@bonifiq.com.br> 1758924580 -0300	commit: Lockfile
+af104ce9ed02f441bc9a2e60a1f920073efcd138 310d7e63319da21da6ef27d2578c5b0552172a8c Alex Camargo <alex@bonifiq.com.br> 1758924776 -0300	commit: servers
+310d7e63319da21da6ef27d2578c5b0552172a8c d323b0dff4ae932e8f05c4b4db600445fa64764c Alex Camargo <alex@bonifiq.com.br> 1758924803 -0300	commit: entry server
+d323b0dff4ae932e8f05c4b4db600445fa64764c 106b3988009ec3e737dbafca990635ed5d57d845 Alex Camargo <alex@bonifiq.com.br> 1758924841 -0300	commit: landing page
+106b3988009ec3e737dbafca990635ed5d57d845 092c807b3b4839acb15ad79378bd7df3ad61d6cf Alex Camargo <alex@bonifiq.com.br> 1759162634 -0300	commit: Ajustes de user logado
+092c807b3b4839acb15ad79378bd7df3ad61d6cf bd4b60a4450a3ff9beeca41052a6768bd849a412 Alex Camargo <alex@bonifiq.com.br> 1759162897 -0300	commit: ajustes de config
