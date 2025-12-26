@@ -32,8 +32,10 @@ export function BqScript({
       const resolvedCustomer = customer ? await customer : null;
 
       // Prefer explicit props; fall back to cart.buyerIdentity
-      let email: string | null | undefined = resolvedCustomer?.email;
-      let id: string | undefined = resolvedCustomer?.id
+let email: string | null | undefined =
+  (resolvedCustomer as any)?.email ??
+  (resolvedCustomer as any)?.emailAddress?.emailAddress ??
+  null;      let id: string | undefined = resolvedCustomer?.id
         ? resolvedCustomer.id.split('/').pop()
         : undefined;
       const customerFullName =
@@ -76,10 +78,13 @@ export function BqScript({
       }
 
       if (cancelled) return;
-
-      if (email) sessionStorage.setItem('bqemail', String(email));
-      if (id) sessionStorage.setItem('bqid', String(id));
-      if (name) sessionStorage.setItem('bqname', name);
+      
+if (!name && email) {
+  name = email;
+}
+if (email) sessionStorage.setItem('bqemail', String(email));
+if (id) sessionStorage.setItem('bqid', String(id));
+if (name) sessionStorage.setItem('bqname', name);
 
       script = document.createElement('script');
       script.src = src;
